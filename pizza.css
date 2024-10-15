@@ -4,19 +4,34 @@ body{
 
 header{
     background-image: url(kepek/47sa3d.jpg);
-    height: 450px;
+    height: 590px;
     background-size: cover;
-    margin-top: -200px;
+    display: flex;
+    transform: translateY(-250px);
 }
 nav{
-    margin-top: 160px;
     color: white;
     text-align: right;
-    margin-right: 30px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 280px;
     text-transform: uppercase;
+    font-size: small;
 }
 
 nav a{
     color: white;
     text-decoration: none;
+}
+
+nav a:hover{
+    transition-duration: 400ms;
+    color: yellow;
+}
+#hcim{
+    margin-top: 270px;
+    color: white;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
