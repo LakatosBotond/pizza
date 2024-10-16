@@ -42,6 +42,9 @@ nav a:hover{
     color: white;
     
 }
+#Tszoveg{
+    padding-right: 100px;
+}
 #cimjobb{
     padding-left: 500px;
     padding-right: 200px ;
@@ -68,5 +71,40 @@ nav a:hover{
     text-transform: uppercase;
 }
 #menu{
+    color: white;
+    text-align: center;
+}
+#Mcim{
+    text-align: center;
+}
+#ajanl{
+    text-align: center;
+}
+#Mszoveg{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+button{
+    margin-top: 25px;
+    height: 45px;
+    width: 130px;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(56, 54, 54);
+    transition-duration: 200ms;
+}
+#gomb2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#specialitas{
+    background-color: #3b3b3b;
     color: white;
 }
