@@ -82,8 +82,8 @@ nav a:hover{
 }
 #Mszoveg{
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 button{
     margin-top: 25px;
@@ -107,4 +107,44 @@ button:hover{
 #specialitas{
     background-color: #3b3b3b;
     color: white;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+#Scim{
+    text-align: center;
+    text-transform: uppercase;
+}
+#Scim2{
+    text-align: center;
+    margin-top: -20px;
+}
+#kep1{
+    width: 480px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+#kep2{
+    width: 226px;
+    height: 190px;
+    margin-left: 20px;
+}
+#kep3{
+    width: 226px;
+    height: 190px;
+    overflow: hidden;
+    object-fit: cover;
+}
+#kep4{
+    width: 240px;
+    height: 420px;
+    object-fit: cover;
+    margin-left: 20px;  
+}
+#kep5{
+    width: 240px;
+    height: 160px;
+    margin-left: 30px;
+    object-fit: cover;
+    margin-top: 10px;
+
 }
