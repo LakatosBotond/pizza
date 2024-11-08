@@ -109,6 +109,7 @@ button:hover{
     color: white;
     padding-left: 250px;
     padding-right: 250px;
+    min-height: 75vh;
 }
 #Scim{
     text-align: center;
@@ -126,25 +127,38 @@ button:hover{
 #kep2{
     width: 226px;
     height: 190px;
-    margin-left: 20px;
+    margin-left: -228px;
+    margin-top: 340px;
+    position: absolute;
 }
 #kep3{
     width: 226px;
     height: 190px;
     overflow: hidden;
     object-fit: cover;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: -480px;
 }
 #kep4{
     width: 240px;
-    height: 420px;
+    height: 370px;
     object-fit: cover;
     margin-left: 20px;  
+    position: absolute;
 }
 #kep5{
     width: 240px;
-    height: 160px;
-    margin-left: 30px;
+    height: 140px;
+    margin-left: 20px;
     object-fit: cover;
-    margin-top: 10px;
+    position: absolute;
+    margin-top: 390px;
 
+}
+#eltakaras{
+    color: #3b3b3b;
+}
+table{
+    color: white;
 }
