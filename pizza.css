@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -40,6 +42,7 @@ nav a:hover{
     background-color: #3b3b3b;
     margin-top: -274px;
     color: white;
+    background-size: auto;
     
 }
 #Tszoveg{
@@ -106,10 +109,10 @@ button:hover{
 }
 #specialitas{
     background-color: #3b3b3b;
+    background-size: 100%;
     color: white;
     padding-left: 250px;
     padding-right: 250px;
-    min-height: 75vh;
 }
 #Scim{
     text-align: center;
@@ -206,6 +209,7 @@ table td{
     grid-template-columns: repeat(20, 50px);
     grid-template-rows: repeat(20, 50px);
     grid-gap: 10px;
+    max-height: 80vh;
 }
 .gallery__img {
     width: 100%;
@@ -243,3 +247,9 @@ table td{
     grid-row-start: 8;
     grid-row-end: 11;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
