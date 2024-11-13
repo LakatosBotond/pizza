@@ -127,8 +127,8 @@ table{
 }
 .gallery {
     display: grid;
-    grid-template-columns: repeat(10, 100px);
-    grid-template-rows: repeat(10, 100px);
+    grid-template-columns: repeat(10, 200px);
+    grid-template-rows: repeat(10, 120px);
     grid-gap: 10px;
 }
 .gallery__img {
@@ -139,19 +139,19 @@ table{
 }
 .gallery__item--1 {
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 .gallery__item--2 {
-    grid-column-start: 7;
-    grid-column-end: 9;
+    grid-column-start: 4;
+    grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 5;
 }
 .gallery__item--3 {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 6;
 }
@@ -167,3 +167,73 @@ table{
     grid-row-start: 5;
     grid-row-end: 6;
 }
+
+.footer{
+  
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    margin-left: -35px;
+   
+  }
+  table{
+      margin: auto;
+      height: 400px;
+      width: 250px;
+      margin: 0;
+      border-spacing: 20px;
+      text-align: left;
+  }
+  table td{
+      border: 1px;
+      border-color: rgb(139, 138, 138);
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-style: solid;
+  }
+  
+  .probald{
+      text-align: left;
+      height: 600px;
+      width: 300px;
+  }
+  .szeretettel{
+    height: 600px;
+    width: 400px;
+    text-align: right;
+    letter-spacing: 1px;
+    font-size: smaller;
+     
+  }
+  .nyitvatart{
+    height: 600px;
+  }
+  .nyitvatart h4{
+    margin-left: 10px;
+    
+  }
+  
+  #foglink{
+    color: white;
+    font-size: larger;
+  }
+  .footercim{
+    border-top: 1px;
+    border-color: rgb(139, 138, 138);
+    border-bottom: 0;
+    border-left:0 ;
+    border-right: 0;
+    border-style: solid;
+    height: 200px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 0.7rem;
+  }
