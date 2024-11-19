@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     margin: 0;
@@ -10,6 +11,9 @@ header{
     background-size: cover;
     display: flex;
     transform: translateY(-250px);
+}
+#keret{
+    display: block;
 }
 nav{
     color: white;
@@ -43,6 +47,7 @@ nav a:hover{
     margin-top: -274px;
     color: white;
     background-size: auto;
+    height: 320px;
     
 }
 #Tszoveg{
@@ -66,9 +71,6 @@ nav a:hover{
     color: gray;    
     transform: translateY(-30px);
 
-}
-#trolo{
-    color: #3b3b3b;
 }
 #foglal{
     text-transform: uppercase;
@@ -249,23 +251,72 @@ table td{
     grid-row-end: 11;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1150px) {
     .footercim{
         font-size: small;
     }
     #specialitas{
         padding-left: 100px;
         padding-right: 100px;
+        height: 800 px;
+    }
+    #menu{
+        color: white;
+        text-align: center;
+        background-color: black;
+        height: 300px
+    }
+    #Tcim{
+        margin-left: 100px;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-size: x-large;
+        margin-right: 450px;
+    }
+    #Tcim1{
+        padding-left: 140px;
+        color: gray;    
+        transform: translateY(-20px);
+    }
+    #Tszoveg{
+        padding-right: 0px;
+        margin-top: -110px;
+        margin-left: -250px;
+        margin-right: -150px;
+    }
+    #foglal{
+        text-transform: uppercase;
+        margin-left: -250px;
+        margin-right: -100px;
+    }
+    #Piadina{
+        margin-left: 12px;
+        padding-right: 400px;
+    }
+    #Mszoveg{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
   }
-
+  @media only screen and (max-width: 930px) {
+    .footercim{
+        font-size: small;
+    }
+    .gallery{
+        margin-left: -100px;
+    }
+  }
   @media only screen and (max-width: 800px) {
     body {
-      background-color: green;
+      background-color: black;
     }
     #specialitas{
         padding-left: 20px;
         padding-right: 20px;
+        height: 700px;
     }
     .gallery__item--1 {
         grid-column-start: 1;
@@ -300,8 +351,8 @@ table td{
     #menu{
         color: white;
         text-align: center;
-        background-color: #3b3b3b;
-
+        background-color: black;
+        height: 300px
     }
     #Tcim{
         margin-left: 100px;
@@ -314,10 +365,11 @@ table td{
     #Tcim1{
         padding-left: 140px;
         color: gray;    
-        transform: translateY(-30px);
+        transform: translateY(-20px);
     }
     #Tszoveg{
         padding-right: 0px;
+        margin-top: -110px;
         margin-left: -250px;
         margin-right: -150px;
     }
@@ -328,5 +380,25 @@ table td{
     }
     #Piadina{
         margin-left: 12px;
+        padding-right: 100px;
     }
+    #Mszoveg{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #tortenet{
+        height: 300px;
+        }
+    #keret{
+        display: block;
+    }
+    .footercim{
+        width: 75%;
+    }
+    .gallery{
+        margin-left: 0px;
+    }
+    
   }
