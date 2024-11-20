@@ -51,7 +51,7 @@ nav a:hover{
     
 }
 #Tszoveg{
-    padding-right: 100px;
+    padding-right: 0px;
 }
 #cimjobb{
     padding-left: 500px;
@@ -254,15 +254,13 @@ table td{
     position: relative;
     text-align: center;
     color: white;
-  }
-.kozep {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(150px);
-    transform: translateX();
-  }
-
+}
+.kozep1{
+    transform: translate(85px, -25px);
+}
+.kozep2{
+    transform: translate(10px, -25px);
+}
 @media only screen and (max-width: 1150px) {
     .footercim{
         font-size: small;
@@ -292,7 +290,7 @@ table td{
         transform: translateY(-20px);
     }
     #Tszoveg{
-        padding-right: 0px;
+        padding-right: 100px;
         margin-top: -110px;
         margin-left: -250px;
         margin-right: -150px;
@@ -312,16 +310,16 @@ table td{
         padding-left: 50px;
         padding-right: 50px;
     }
-  }
-  @media only screen and (max-width: 930px) {
+}
+@media only screen and (max-width: 930px) {
     .footercim{
         font-size: small;
     }
     .gallery{
         margin-left: -100px;
     }
-  }
-  @media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 800px) {
     body {
       background-color: black;
     }
@@ -413,4 +411,7 @@ table td{
         margin-left: 0px;
     }
     
-  }
+}
+@media only screen and (max-width: 670px) {
+
+}
