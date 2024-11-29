@@ -496,6 +496,18 @@ table td{
     .kozep3{
         transform: translate(65px, -20px);
     }
+    .footer{
+  
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+        display: flex;
+        margin-left: -35px;
+       
+    }
+
+
 }
 @media only screen and (max-width: 400px) {
     #Tcim{
@@ -688,6 +700,16 @@ table td{
         display: block;
         margin-left: -20px;
     }
+    .kozep1{
+        transform: translate(95px, -20px);
+    }
+    .kozep2{
+        transform: translate(-20px, -20px);
+    }
+    .kozep3{
+        transform: translate(95px, -20px);
+    }
+
 
 }
 
@@ -751,6 +773,16 @@ table td{
     #Scim{
         font-size: x-large;
 
+    }
+
+    .kozep1{
+        transform: translate(75px, -20px);
+    }
+    .kozep2{
+        transform: translate(-20px, -20px);
+    }
+    .kozep3{
+        transform: translate(65px, -20px);
     }
 
   }
