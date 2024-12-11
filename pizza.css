@@ -15,51 +15,6 @@ header{
 #keret{
     display: block;
 }
-b{
-    
-}
-
-
-.hambi1{
-  background-color: white;
-  height: 6px;
-  width: 38px;
-  transition: 0.5s;
-  border-radius: 2px;
-  right: 5px;
-  display: none;
-  position:absolute;
-}
-.hambi1:nth-child(1) { top: 12px; }
-.hambi1:nth-child(2) { top: 24px; }
-.hambi1:nth-child(3) { top: 36px; }
-
-
-.burgermenu{
-    background-color: rgb(78, 77, 77);
-    margin-top: 10%;
-    margin-left: auto;
-    display: none;
-    flex-direction: column;
-    width: 40%;
-    text-align: center;
-    gap: 20px;
-    padding-top: 10px;
-    height: 20vh;
-    margin-left: 100%;
-}
-.burgericon{
-    margin:0;
-    height: 50px;
-    width: 45px;
-    position: relative;
-    float: right;
-    
-}
-.burgermenu a{
-    text-decoration: none;
-    color: white;
-}
 nav{
     color: white;
     text-align: right;
@@ -483,27 +438,6 @@ table td{
     
 }
 @media only screen and (max-width: 680px) {
-
-    .hambi1{
-        display: block;
-    }
-    .burgermenu.active{
-    background-color: rgb(78, 77, 77);
-    margin-top: 10%;
-    display: flex;
-    margin-left: auto;
-    flex-direction: column;
-    width: 40%;
-    text-align: center;
-    gap: 20px;
-    padding-top: 10px;
-    height: 20vh;
-    margin-left: -100%;
-    }
-      
-    nav a{
-        display: none;
-    }
     #Tszoveg{
         margin-right: 3px;
     }
@@ -576,6 +510,49 @@ table td{
 
 }
 @media only screen and (max-width: 500px) {
+    .footer{
+  
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+        display: block;
+        margin-left: 0px;
+       
+    }
+    .footercim{
+        border-top: 1px;
+        border-color: rgb(139, 138, 138);
+        border-bottom: 0;
+        border-left:0 ;
+        border-right: 0;
+        border-style: solid;
+        height: 200px;
+        margin: auto;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: black;
+        color: white ;
+        font-size: 0.7rem; 
+        width: 300px;
+        margin-top: 1000px;
+    }
+    .szeretettel{
+        height: 600px;
+        width: 100% ;
+        margin-left: -0px;
+        text-align: right;
+        letter-spacing: 1px;
+        font-size: smaller;
+        color: white;
+    }
+    .nyitvatart{
+        text-align: center;
+        align-items: center;
+    }
     #Tcim{
         margin-left: 35px;
         padding-top: 0px;
