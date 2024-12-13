@@ -1,7 +1,8 @@
-const burgermenuk= document.querySelector('.burgermenu');
-const burgericonk = document.querySelector('.burgericon');
+const hamburgerMenu= document.querySelector('.hamburger-menu');
+const hamburgerIcon=document.querySelector('.hamburgericon');
 
-burgericonk.addEventListener('click', () =>{
-    burgermenuk.classList.toggle('active')
-    burgericonk.classList.toggle('active')
+
+hamburgerIcon.addEventListener('click',() =>{
+    hamburgerMenu.classList.toggle('active');
+    hamburgerIcon.classList.toggle('active');
 })

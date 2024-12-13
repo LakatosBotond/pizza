@@ -34,6 +34,49 @@ nav a:hover{
     transition-duration: 400ms;
     color: yellow;
 }
+.line{
+    background-color: white;
+    height: 6px;
+    width: 38px;
+    transition: 0.5s;
+    border-radius: 2px;
+    right: 5px;
+    
+}
+  
+  
+  
+.hamburger-menu{
+    background-color: rgb(78, 77, 77);;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    gap: 5px;
+    padding-top: 10px;
+    height: 10vh;
+    position: absolute;
+    right: -60%;
+    top: 90px;
+    justify-content: space-evenly;
+  
+   
+}
+.hamburgericon{
+    gap: 5px;
+    position: relative;
+    float: right;
+    display: none;
+    flex-direction: column;
+  
+    
+    
+}
+.hamburger-menu a{
+    text-decoration: none;
+    color: white;
+}
+  
 #Hcim{
     margin-top: 270px;
     color: white;
@@ -438,6 +481,55 @@ table td{
     
 }
 @media only screen and (max-width: 680px) {
+    .hamburgericon{
+        gap: 5px;
+        position: relative;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+      
+        
+        
+    }
+    .hamburgericon.active .line:nth-child(1){
+        opacity: 0;
+        transition: 0.2s;
+    }
+    .hamburgericon.active .line:nth-child(2){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburgericon.active .line:nth-child(3){
+      transform: translateY(-2px) rotate(-45deg);
+    }
+    nav a{
+        display: none;
+    }
+    .line{
+        display: block;
+    }
+    .hamburger-menu.active{
+        background-color: rgb(78, 77, 77);;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        text-align: center;
+        gap: 5px;
+        padding-top: 10px;
+        height: 28vh;
+        position: absolute;
+        right: 0;
+        top: 325px;
+        justify-content: space-evenly;
+        transition: 0.5s;
+        text-transform: uppercase;
+        
+        
+    }
+    .hamburger-menu a:hover{
+        opacity: 0.7;
+        transition: 0.4s;
+    }
     #Tszoveg{
         margin-right: 3px;
     }
@@ -506,53 +598,22 @@ table td{
         margin-left: -35px;
        
     }
+    .footer{
+        flex-direction: column;
+    }
+    .szeretettel{
+        margin-top: 100px;
+    }
 
+    .footercim{
+        margin-top: 150px;
+        height: 100px;
+
+    }
 
 }
 @media only screen and (max-width: 500px) {
-    .footer{
-  
-        height: 700px;
-        align-items: center;
-        justify-content: center;
-        column-gap: 30px;
-        display: block;
-        margin-left: 0px;
-       
-    }
-    .footercim{
-        border-top: 1px;
-        border-color: rgb(139, 138, 138);
-        border-bottom: 0;
-        border-left:0 ;
-        border-right: 0;
-        border-style: solid;
-        height: 200px;
-        margin: auto;
-        width: 50%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        background-color: black;
-        color: white ;
-        font-size: 0.7rem; 
-        width: 300px;
-        margin-top: 1000px;
-    }
-    .szeretettel{
-        height: 600px;
-        width: 100% ;
-        margin-left: -0px;
-        text-align: right;
-        letter-spacing: 1px;
-        font-size: smaller;
-        color: white;
-    }
-    .nyitvatart{
-        text-align: center;
-        align-items: center;
-    }
+
     #Tcim{
         margin-left: 35px;
         padding-top: 0px;
@@ -670,6 +731,15 @@ table td{
         display: block;
         margin-left: -20px;
     }
+    .kozep1{
+        transform: translate(120px, -20px);
+    }
+    .kozep2{
+        transform: translate(-20px, -20px);
+    }
+    .kozep3{
+        transform: translate(120px, -20px);
+    }
 
 }
 @media only screen and (max-width: 350px) {
@@ -751,6 +821,9 @@ table td{
     }
     .kozep3{
         transform: translate(95px, -20px);
+    }
+    #Scim{
+        font-size: x-large;
     }
 
 
