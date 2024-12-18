@@ -3,6 +3,7 @@ body{
     background-color: black;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 header{
@@ -56,7 +57,7 @@ nav a:hover{
     padding-top: 10px;
     height: 10vh;
     position: absolute;
-    right: -60%;
+    /*right: -60%;*/
     top: 90px;
     justify-content: space-evenly;
   
@@ -299,13 +300,19 @@ table td{
     color: white;
 }
 .kozep1{
-    transform: translate(85px, -25px);
+    transform: translate(15px, -25px);
 }
 .kozep2{
     transform: translate(10px, -25px);
 }
 .kozep3{
-    transform: translate(85px, -25px);
+    transform: translate(8px, -25px);
+}
+.kozep4{
+    transform: translate(90px, -25px);
+}
+.kozep5{
+    transform: translate(85px,-25px);
 }
 @media only screen and (max-width: 1150px) {
     .footercim{
@@ -418,13 +425,21 @@ table td{
         grid-row-end: 10;
     }
     .kozep1{
-        transform: translate(40px, -20px);
+        transform: translate(5px, -20px);
+        font-size: xx-small;
     }
     .kozep2{
         transform: translate(10px, -20px);
     }
     .kozep3{
+        transform: translate(2px, -20px);
+        font-size: small;
+    }
+    .kozep4{
         transform: translate(65px, -20px);
+    }
+    .kozep5{
+        transform: translate(30px, -20px);
     }
     #menu{
         color: white;
@@ -481,6 +496,9 @@ table td{
     
 }
 @media only screen and (max-width: 680px) {
+    header{
+        height: 650px;
+    }
     .hamburgericon{
         gap: 5px;
         position: relative;
@@ -580,13 +598,21 @@ table td{
         grid-row-end: 10;
     }
     .kozep1{
-        transform: translate(40px, -20px);
+        transform: translate(5px, -20px);
+        font-size: xx-small;
     }
     .kozep2{
         transform: translate(10px, -20px);
     }
     .kozep3{
+        transform: translate(2px, -20px);
+        font-size: small;
+    }
+    .kozep4{
         transform: translate(65px, -20px);
+    }
+    .kozep5{
+        transform: translate(30px, -20px);
     }
     .footer{
   
@@ -616,7 +642,6 @@ table td{
 
     #Tcim{
         margin-left: 35px;
-        padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 0px;
         padding-top: 100px;
@@ -732,12 +757,20 @@ table td{
         margin-left: -20px;
     }
     .kozep1{
-        transform: translate(120px, -20px);
+        transform: translate(50px, -20px);
+        font-size: medium;
     }
     .kozep2{
         transform: translate(-20px, -20px);
     }
     .kozep3{
+        transform: translate(35px, -20px);
+        font-size: medium;
+    }
+    .kozep4{
+        transform: translate(120px, -20px);
+    }
+    .kozep5{
         transform: translate(120px, -20px);
     }
 
