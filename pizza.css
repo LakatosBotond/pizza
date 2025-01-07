@@ -200,7 +200,12 @@ table td{
       border-left: 0;
       border-right: 0;
       border-top: 0;
+      padding-bottom: 5%;     
       border-style: solid;
+}
+.probald h2{
+    text-transform: uppercase;
+    font-size: 1.2rem;
 }
   
 .probald{
@@ -216,6 +221,7 @@ table td{
     letter-spacing: 1px;
     font-size: smaller;
     color: white;
+    padding-top: 50px;
      
 }
 .nyitvatart{
@@ -241,7 +247,7 @@ table td{
     border-style: solid;
     height: 200px;
     margin: auto;
-    width: 50%;
+    width: 80%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -496,7 +502,7 @@ table td{
         display: block;
     }
     .footercim{
-        width: 75%;
+        width: 90%;
     }
     .gallery{
         margin-left: 0px;
@@ -637,16 +643,53 @@ table td{
     }
     .szeretettel{
         margin-top: 100px;
+        text-align: right;
+        margin-left: 250px;
     }
 
     .footercim{
-        margin-top: 150px;
+        margin-top: 200px;
         height: 100px;
+        padding-top: 20px;
 
     }
 
 }
+@media only screen and (max-width: 628px) {
+    .szeretettel{
+        margin-left: 225px;
+    }
+}
+@media only screen and (max-width: 598px) {
+    .szeretettel{
+        margin-left: 200px;
+    }
+}
+@media only screen and (max-width: 565px) {
+    .szeretettel{
+        margin-left: 175px;
+    }
+}
+@media only screen and (max-width: 547px) {
+    .szeretettel{
+        margin-left: 150px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .szeretettel{
+        margin-left: 125px;
+    }
+}
+
+  
 @media only screen and (max-width: 500px) {
+    .footercim{
+        margin-top: 160px;
+    }
+    .szeretettel{
+        margin-left: 100px;
+        text-align: right;
+    }
 
     #Tcim{
         margin-left: 35px;
@@ -710,7 +753,13 @@ table td{
         background-color: rgb(56, 54, 54);
         transition-duration: 200ms;
     }
-
+    .probald h2{
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .probald{
+        padding-bottom: 38px;
+    }
     .gallery {
         display: grid;
         grid-template-columns: repeat(30, 40px);
@@ -780,6 +829,29 @@ table td{
     }
     .kozep5{
         transform: translate(120px, -20px);
+    }
+
+}
+@media only screen and (max-width: 480px) {
+    .szeretettel{
+        margin-left: 70px;
+    }
+}
+@media only screen and (max-width: 455px) {
+    .szeretettel{
+        margin-left: 40px;
+    }
+
+}
+@media only screen and (max-width: 412px) {
+    .szeretettel{
+        margin-left: 10px;
+    }
+
+}
+@media only screen and (max-width: 380px) {
+    .szeretettel{
+        padding-right: 30px;
     }
 
 }
@@ -866,6 +938,23 @@ table td{
     #Scim{
         font-size: x-large;
     }
+    .kozep1{
+        transform: translate(20px, -20px);
+        font-size: medium;
+    }
+    .kozep2{
+        transform: translate(-20px, -20px);
+    }
+    .kozep3{
+        transform: translate(20px, -20px);
+        font-size: medium;
+    }
+    .kozep4{
+        transform: translate(90px, -20px);
+    }
+    .kozep5{
+        transform: translate(90px, -20px);
+    }       
 
 
 }
