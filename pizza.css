@@ -158,8 +158,8 @@ button:hover{
     background-color: #3b3b3b;
     background-size: 100%;
     color: white;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 15%;
+    padding-right: 20%;
 }
 #Scim{
     text-align: center;
